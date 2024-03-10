@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-color: rgb(80, 80, 80);
+    background-color: #0e586e;
     font-family: Arial, Helvetica, sans-serif;
 } 
 
@@ -12,15 +12,28 @@ ul{
     padding: 16px;
 }
 
-a{
+nav a{
     color: white;
+    padding: 12px;
+    text-decoration: none; 
+}
+
+nav a:hover{
+    color:#89e4ff;
+    border: 2px solid #89e4ff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer a{
+    color: black;
 }
 
 header img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #40a8c7
+    border: 5px solid #89e4ff
 }
 
 .center{
@@ -28,7 +41,7 @@ header img{
 }
 
 header h1{
-    color: #40a8c7;
+    color: #89e4ff;
 }
 
 footer{
